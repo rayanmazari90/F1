@@ -314,7 +314,18 @@ with tabs[0]:
     st.markdown('<h1 class="hero-title">THE F1 FINAL BOSS</h1>', unsafe_allow_html=True)
     st.markdown('<p class="hero-subtitle">Designing the Ultimate Driver Persona from 70+ Years of Formula 1 Data</p>', unsafe_allow_html=True)
     
-    st.markdown("<br><br>", unsafe_allow_html=True)
+    # Team members
+    st.markdown("""
+    <div style="text-align: center; margin-top: 1.5rem; margin-bottom: 1rem;">
+        <p style="color: #8b949e; font-size: 0.9rem; margin-bottom: 0.5rem;">GROUP 3</p>
+        <p style="color: #c9d1d9; font-size: 1rem; line-height: 1.8;">
+            <strong>King Fouad Al Khadra</strong> · <strong>Boumediene Rayane Mazari</strong> · <strong>Blanca Múgica Álvarez-Garcillán</strong><br>
+            <strong>Maria da Luz Piriquito Fortunas da Cruz</strong> · <strong>Diego Alfaro Gomez</strong>
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    st.markdown("<br>", unsafe_allow_html=True)
     
     # Key stats
     col1, col2, col3, col4 = st.columns(4)
